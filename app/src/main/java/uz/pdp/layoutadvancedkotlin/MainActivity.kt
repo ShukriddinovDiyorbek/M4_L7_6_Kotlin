@@ -19,13 +19,13 @@ class MainActivity : AppCompatActivity() {
     private fun initViews() {
         val textView = findViewById<TextView>(R.id.textView)
         val text =
-            "I know just how to #whister, And I know how to cry, I know just where to find the answer"
+            "I would like to do something similar to the https://twitter.com app"
 
         val spannable: Spannable = SpannableString(text)
         spannable.setSpan(
             ForegroundColorSpan(Color.BLUE),
-            18,
-            27,
+            44,
+            62,
             Spannable.SPAN_EXCLUSIVE_EXCLUSIVE
         )
 
